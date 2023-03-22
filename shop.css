@@ -43,6 +43,13 @@ padding-right: 25px;
   margin-top: 70px;
 }
 
+video{
+  width: 350px;
+  justify-content: space-evenly;
+  max-width: 500px;
+  align-content: space-evenly;
+}
+
 .col2{
   flex-basis: 50%;
   min-width: 300px;
