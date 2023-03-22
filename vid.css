@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient(white, rgb(202, 195, 195));
+}
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+.container h1{
+    padding: 60px 0;
+    color: black;
+    font-size: 44px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.small-img-row{
+    display: flex;
+    background-color: brown;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 84%;
+}
+.small-img{
+    position: relative;
+}
+.small-img img{
+    width: 150px;
+}

@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient(rgb(250, 210, 210),rgb(252, 247, 248));
+}
+/*navbar*/
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color:rgb(202, 98, 98) ;
+}
+nav ul li a:hover{
+  color: blue;
+}
+.momoshiki{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* first template*/
+  .b1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header .b1{
+    margin-top: 70px;
+  }
+
+  .header{
+    background-image: radial-gradient(white, rgb(202, 195, 195));
+  }
+
+  /*footer*/
+  footer {
+    background-color:black;
+    padding: 50px 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: royalblue;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: aquamarine;
+  }
+  
+  footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  footer .col-md-4 {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 767px) {
+    footer .col-md-4 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+h1{
+    text-align: center;
+}  
+h2{
+    text-align: center;
+} 
+h3{
+    text-align: center;
+} 
+.div{
+    border: 200px;
+}
