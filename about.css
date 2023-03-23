@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     background-image: radial-gradient(rgb(250, 210, 210),rgb(252, 247, 248));
 }
 /*navbar*/
@@ -114,3 +114,13 @@ h3{
 .div{
     border: 200px;
 }
+/* button{
+  display: inline-block;
+  background-color:black;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px o;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.5s;
+} */

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Page</title>
+    </head>
+    <style>
+      .navbar{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+      }
+
+      nav{
+        flex: 1;
+        text-align: right;
+      }
+
+      nav ul{
+        display: inline-block;
+        list-style-type: none;
+      }
+
+      nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      a{
+        text-decoration: none;
+        color:rgb(202, 98, 98) ;
+      }
+
+      nav ul li a:hover{
+        color: blue;
+      }
+
+      b1{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .header{
+        background-image: radial-gradient(white, rgb(202, 195, 195));
+      }
+      
+      .audio-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:  20px;
+      }
+
+      .audio-card img{
+        width: 10%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      h2{
+        text-align: center;
+      } 
+
+    </style>
+    <body>
+        <!--navigation bar-->
+        <div class="header">
+          <div class="navbar">
+            <div class="logo">
+              <img src="images/log.png" width="125px"></div>
+                <nav>
+                  <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="image.html">Images</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="small">
+          <!-- title -->
+          <h2 class="title">Audio Page</h2>
+            <!-- audio 1 properties -->
+            <div class="audio-card">
+              <img src="images/f1.webp">
+              <audio controls>
+                <source src="Bella Shmurda, Nasty C - Philo Remix.mp3" type="audio/mpeg">
+              </audio>
+              <h4> Bella Shmurda, Nasty C - Philo Remix.mp3</h4>
+            </div>
+
+            <br>
+
+            <!-- audio 2 properties -->
+            <div class="audio-card">
+              <img src="images/f1.webp">
+              <audio controls>
+                <source src="Ruger - Asiwaju.mp3" type="audio/mpeg">
+              </audio>
+              <h4> Ruger - Asiwaju.mp3</h4>
+            </div>
+        </div>
+        
+    </body>
+</html>            
